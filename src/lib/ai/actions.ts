@@ -2,7 +2,7 @@
 
 import { google } from '@ai-sdk/google';
 import { generateObject } from 'ai';
-import { GenerateTitlesInputSchema, AITitlesOutputSchema } from '@/src/lib/validations/schemas';
+import { GenerateTitlesInputSchema, AITitlesOutputSchema } from '@/lib/validations/schemas';
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 
