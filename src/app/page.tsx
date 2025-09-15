@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BookOpen, MessageCircle, BookUser, LucideIcon } from "lucide-react"
+import { BookOpen, MessageCircle, BookUser, BookImage, LucideIcon } from "lucide-react"
 
 type Card = {
   title: string
@@ -22,6 +22,11 @@ const items: Card[] = [
     title: 'RAG - Dotando de Memoria a tu Agente.',
     Icon: BookUser,
     path: '/rag'
+  },
+  {
+    title: 'RAG - Dotando de Memoria a tu Agente con imágenes.',
+    Icon: BookImage,
+    path: '/rag-images'
   }
 ]
 
